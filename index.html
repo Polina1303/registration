@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form">
+        <form action="#" id="form" method="post">
+          <h1 class="form__title">Sign up</h1>
+
+          <div class="form__item">
+            <label for="formName" class="form__label">First Name*:</label>
+            <input
+              id="formName"
+              type="text"
+              name="firstName"
+              placeholder="Your Name"
+              class="form__input"
+            />
+            <small>Error</small>
+          </div>
+
+          <div class="form__item">
+            <label for="formLastName" class="form__label">Last Name*:</label>
+            <input
+              id="formLastName"
+              type="text"
+              placeholder="Your Last Name"
+              name="lastName"
+              class="form__input"
+            />
+            <small>Error</small>
+          </div>
+
+          <div class="form__item">
+            <label for="datePicker" class="form__label">Birth date*:</label>
+            <input
+              type="date"
+              name="date"
+              id="datePicker"
+              class="form__input"
+            />
+            <small>Erorr</small>
+          </div>
+
+          <div class="form__item">
+            <label for="formEmail" class="form__label">E-mail*:</label>
+            <input
+              id="formEmail"
+              type="text"
+              name="email"
+              placeholder="Your E-mail"
+              class="form__input"
+            />
+            <small>Error</small>
+          </div>
+
+          <div class="form__item">
+            <label for="formPassword" class="form__label">Password*:</label>
+            <input
+              id="formPassword"
+              type="text"
+              name="password"
+              placeholder="Password"
+              class="form__input"
+            />
+            <small>Erorr</small>
+          </div>
+
+          <div class="form__item">
+            <label for="formCheckPassword" class="form__label"
+              >Password check*:</label
+            >
+            <input
+              id="formCheckPassword"
+              type="text"
+              name="checkPassword"
+              placeholder="Repeat password"
+              class="form__input"
+            />
+            <small>Error</small>
+          </div>
+          <button class="form__button" id>Submit</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
